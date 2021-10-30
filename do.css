@@ -1,0 +1,32 @@
+body{
+	background-color: lightpink;
+	padding: 45px;
+}
+
+.done{
+	border-radius: 100px;
+}		
+
+.button{
+	margin-bottom: 20px;
+	background-color: whitesmoke;
+	border: 0;
+	width: 300px;
+	padding: 15px 0 15px 0;
+	border-radius: 100px;
+	font-family: 'Roboto Condensend',cursive;
+	transition-duration: 0.3s;
+	font-size: 15px;
+	transition-property: color, background-color;
+	-webkit-box-shadow: 0px 11px 22px -9px #000000; 
+	box-shadow: 0px 11px 22px -9px #000000;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: white;
+	background-color: black;
+
+
+}
+
